@@ -1,8 +1,7 @@
 
 package lab5;
 
-import lab3.*;
-import lab2.*;
+
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -41,7 +40,7 @@ public class StartUp {
         
         
         System.out.println("Second List: ");
-        for(Employee e : empListTwo){
+        for(Employee e : empList){
             System.out.println(e.toString());
         }
         
